@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import java.sql.*;
 /**
- * Servlet implementation class TestDBServlets
+ * Servlet implementation class TestDBServlet
  */
 @WebServlet("/TestDBServlet")
 public class TestDBServlet extends HttpServlet {
@@ -22,7 +22,7 @@ public class TestDBServlet extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// setup connection varibles
+		// setup connection variables
 		String user = "springstudent";
 		String pass = "springstudent";
 		
